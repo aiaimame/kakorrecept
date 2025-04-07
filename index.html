@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recept: Cookies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cookie recept</h1>
+    <nav>
+      <ul>
+        <li><a href="#ingredienser">Ingredienser</a></li>
+        <li><a href="#instruktioner">Instruktioner</a></li>
+        <li><a href="#slideshow">Bildspel</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="slideshow" class="slideshow-container">
+      <div class="slide fade">
+        <img src="images/cookie1.jpg" >
+      </div>
+      <div class="slide fade">
+        <img src="images/cookie2.jpg" >
+      </div>
+      <div class="slide fade">
+        <img src="images/cookie3.jpg" >
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    
+    <!-- Receptinnehåll med CSS Grid -->
+    <section id="recept" class="recept-container">
+      <!-- Ingredienser -->
+      <article id="ingredienser" class="grid-item">
+        <h2>Ingredienser</h2>
+        <ul>
+          <li>200g smör</li>
+          <li>2 ägg</li>
+          <li>2 dl socker</li>
+          <li>3 dl mjöl</li>
+          <li>1 tsk bakpulver</li>
+          <li>Vaniljsocker</li>
+          <li>Chokladbitar</li>
+        </ul>
+      </article>
+      <article id="instruktioner" class="grid-item">
+        <h2>Instruktioner</h2>
+        <ol>
+          <li>Förvärm ugnen till 175°C.</li>
+          <li>Blanda smör och socker tills det är fluffigt.</li>
+          <li>Tillsätt ägg och vaniljsocker och blanda.</li>
+          <li>Blanda i mjölet, lite i taget och tillsätt därefter bakpulvret.</li>
+          <li>Rör i chokladbitarna.</li>
+          <li>Forma små bollar på en bakplåt med bakplåtspapper.</li>
+          <li>Grädda i 10–12 minuter tills kanterna är gyllenbruna.</li>
+          <li>Låt svalna innan servering.</li>
+        </ol>
+      </article>
+    </section>
+  </main>
+  
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
